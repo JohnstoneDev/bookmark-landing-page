@@ -8,8 +8,8 @@ module.exports = {
       global : ['Rubik', 'sans-serif'],
     },
     fontSize : {
-      'heading' : ['36px', {
-            lineHeight : '40px',
+      'heading' : ['45px', {
+            lineHeight : '50px',
             letterSpacing : '0px',
             fontWeight : '800',
           }
