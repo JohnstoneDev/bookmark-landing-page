@@ -18,10 +18,10 @@ export const TopBox = () => {
 				<div className='flex flex-col desktop:text-left space-y-8 h-fit max-w-screen'>
 					<h1 className='text-very-dark-blue text-heading'>A Simple Bookmarks Manager</h1>
 					<p className='text-grayish-blue'>
-						A clean and simple interface to organize your favorite websites. Open a new browser tab and see your sites load instantly
+						A clean and simple interface to organiPze your favorite websites. Open a new browser tab and see your sites load instantly
 						Try it for free
 					</p>
-					<div className='space-x-8 pt-2.5 flex mobile:items-center mobile:justify-center desktop:items-start desktop:justify-start'>
+					<div className='space-x-8 pt-2.5 flex mobile:items-center mobile:justify-center max-mobile:items-center max-mobile:justify-center desktop:items-start desktop:justify-start'>
 						<Button coloring={"bg-soft-blue text-whitish"}>Get it on Chrome</Button>
 						<Button>Get it on Firefox</Button>
 					</div>

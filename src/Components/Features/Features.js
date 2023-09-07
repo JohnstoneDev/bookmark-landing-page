@@ -49,7 +49,7 @@ export const Features = () => {
 			id : 2,
 			title : "Intelligent Search",
 			image : tab2,
-			details : "Our pewerful search feature will help you find saved sites in no time at all. No need to trawl through all your bookmarks"
+			details : "Our powerful search feature will help you find saved sites in no time at all. No need to trawl through all your bookmarks"
 		},
 		{
 			id : 3,
@@ -67,7 +67,7 @@ export const Features = () => {
 	}
 
 	return (
-		<div className="space-y-6 gap-4 flex flex-col mobile:pt-8 desktop:pt-0">
+		<div className="space-y-6 gap-4 flex flex-col mobile:pt-8 desktop:pt-0 p-8">
 			<section className="text-center flex flex-col space-y-4 text-grayish-blue">
 				<h2 className="text-heading text-very-dark-blue">Features</h2>
 				<p>Our aim is to make it quick and easy for you to access your favorite websites.
