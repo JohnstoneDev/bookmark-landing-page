@@ -35,6 +35,7 @@ module.exports = {
     },
     colors : {
       'whitish' : '#f5f5f5',
+      'transparent' : 'transparent',
       'soft-blue' : 'hsl(231, 69%, 60%)',
       'soft-red' : 'hsl(0, 94%, 66%)',
       'grayish-blue' : 'hsl(229, 8%, 60%)',
