@@ -80,7 +80,7 @@ export const Features = () => {
 						['Intelligent Search', 2],
 						['Share your bookmarks', 3],
 					].map(([title, id]) => (
-						<button onClick={() => switchInfo(id)} className="p-2 active:border-b-4 focus:border-b-4 border-b-soft-red">{title}</button>
+						<button key={id} onClick={() => switchInfo(id)} className="p-2 active:border-b-4 focus:border-b-4 border-b-soft-red">{title}</button>
 					))}
 			</section>
 

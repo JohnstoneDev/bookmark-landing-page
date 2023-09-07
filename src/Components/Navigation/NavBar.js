@@ -9,11 +9,11 @@ export const NavBar = () => {
 			<img src={logo} alt="" className='max-h-fit'/>
 			<div className='desktop:flex mobile:hidden max-mobile:hidden items-center justify-between'>
 					{[
-						['Features', 'features'],
-						['Pricing', 'pricing'],
-						['Contact', 'Contact'],
-					].map(([title, link]) => (
-						<p className='cursor-pointer'>{title}</p>
+						['Features', 'features', 1],
+						['Pricing', 'pricing', 2],
+						['Contact', 'Contact',3 ],
+					].map(([title, link, id]) => (
+						<p className='cursor-pointer' key={id}>{title}</p>
 					))}
 				<Button coloring={"bg-soft-red"}>Login</Button>
 			</div>
