@@ -2,6 +2,8 @@ import { TopBox } from "../BoxView/Box"
 import { NavBar } from "../Navigation/NavBar"
 import { Features } from "../Features/Features"
 import { Download } from "../IconCard/DownloadSection"
+import { DetailsSection } from "../DetailsDrop/Details"
+
 
 export const HomeComponent = () => {
 	return (
@@ -10,6 +12,7 @@ export const HomeComponent = () => {
 			<TopBox />
 			<Features />
 			<Download />
+			<DetailsSection />
 		</div>
 	)
 }
